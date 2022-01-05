@@ -1,0 +1,7 @@
+tasks:
+  - name: Local Server
+    command: node server.js
+
+ports:
+  - port: 8000
+    onOpen: open-browser
